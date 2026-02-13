@@ -1,4 +1,4 @@
-# FPrimeAI Client Platform — Static Site Starter
+# FPrimeAI Client Platform Site Last Updated: 2026-02-13 13:00— Static Site Starter
 
 This ZIP contains a ready-to-edit, multi-page, client-facing website starter for FPrimeAI.
 
