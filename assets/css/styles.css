@@ -358,6 +358,37 @@ a:hover {
   background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280"><defs><radialGradient id="c" cx="50%25" cy="25%25" r="60%25"><stop offset="0" stop-color="%230fa87e" stop-opacity=".10"/><stop offset="1" stop-color="%23f0faf6" stop-opacity="0"/></radialGradient></defs><rect fill="url(%23c)" width="400" height="280"/><circle cx="200" cy="80" r="55" fill="%230fa87e" opacity=".05"/><circle cx="340" cy="60" r="40" fill="%232b7fff" opacity=".04"/><circle cx="80" cy="100" r="35" fill="%230fa87e" opacity=".06"/></svg>');
 }
 
+/* Product pillar backgrounds */
+.pillar-copilot {
+  background-color: #edf4ff;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280"><defs><radialGradient id="pc1" cx="35%25" cy="25%25" r="65%25"><stop offset="0" stop-color="%232b7fff" stop-opacity=".12"/><stop offset="1" stop-color="%23edf4ff" stop-opacity="0"/></radialGradient></defs><rect fill="url(%23pc1)" width="400" height="280"/><circle cx="100" cy="50" r="35" fill="%232b7fff" opacity=".06"/><circle cx="250" cy="90" r="50" fill="%230fa87e" opacity=".05"/><circle cx="330" cy="40" r="28" fill="%232b7fff" opacity=".04"/></svg>');
+}
+
+.pillar-vision {
+  background-color: #f0f0ff;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280"><defs><radialGradient id="pc2" cx="65%25" cy="30%25" r="60%25"><stop offset="0" stop-color="%237c3aed" stop-opacity=".10"/><stop offset="1" stop-color="%23f0f0ff" stop-opacity="0"/></radialGradient></defs><rect fill="url(%23pc2)" width="400" height="280"/><circle cx="280" cy="60" r="45" fill="%237c3aed" opacity=".05"/><circle cx="120" cy="100" r="40" fill="%232b7fff" opacity=".04"/><circle cx="350" cy="110" r="30" fill="%237c3aed" opacity=".06"/></svg>');
+}
+
+.pillar-safety {
+  background-color: #fff5f5;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280"><defs><radialGradient id="pc3" cx="50%25" cy="20%25" r="65%25"><stop offset="0" stop-color="%23e84560" stop-opacity=".10"/><stop offset="1" stop-color="%23fff5f5" stop-opacity="0"/></radialGradient></defs><rect fill="url(%23pc3)" width="400" height="280"/><circle cx="200" cy="70" r="50" fill="%23e84560" opacity=".05"/><circle cx="60" cy="50" r="30" fill="%23e84560" opacity=".04"/><circle cx="340" cy="90" r="35" fill="%23ff8a65" opacity=".05"/></svg>');
+}
+
+.pillar-downtime {
+  background-color: #fff8f0;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280"><defs><radialGradient id="pc4" cx="40%25" cy="30%25" r="60%25"><stop offset="0" stop-color="%23f59e0b" stop-opacity=".12"/><stop offset="1" stop-color="%23fff8f0" stop-opacity="0"/></radialGradient></defs><rect fill="url(%23pc4)" width="400" height="280"/><circle cx="150" cy="80" r="45" fill="%23f59e0b" opacity=".05"/><circle cx="300" cy="50" r="35" fill="%23ff8a65" opacity=".04"/><circle cx="70" cy="110" r="30" fill="%23f59e0b" opacity=".06"/></svg>');
+}
+
+.pillar-iot {
+  background-color: #f0faf6;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280"><defs><radialGradient id="pc5" cx="55%25" cy="25%25" r="65%25"><stop offset="0" stop-color="%230fa87e" stop-opacity=".12"/><stop offset="1" stop-color="%23f0faf6" stop-opacity="0"/></radialGradient></defs><rect fill="url(%23pc5)" width="400" height="280"/><circle cx="220" cy="70" r="50" fill="%230fa87e" opacity=".05"/><circle cx="80" cy="50" r="35" fill="%232b7fff" opacity=".04"/><circle cx="350" cy="100" r="30" fill="%230fa87e" opacity=".06"/></svg>');
+}
+
+.pillar-datalayer {
+  background-color: #f0f4ff;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280"><defs><radialGradient id="pc6" cx="45%25" cy="30%25" r="60%25"><stop offset="0" stop-color="%23475569" stop-opacity=".10"/><stop offset="1" stop-color="%23f0f4ff" stop-opacity="0"/></radialGradient></defs><rect fill="url(%23pc6)" width="400" height="280"/><circle cx="180" cy="80" r="45" fill="%23475569" opacity=".05"/><circle cx="320" cy="50" r="35" fill="%232b7fff" opacity=".04"/><circle cx="60" cy="90" r="30" fill="%23475569" opacity=".06"/></svg>');
+}
+
 .card ul {
   margin: 10px 0 0 18px;
   color: var(--muted)
