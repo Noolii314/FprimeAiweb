@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#f5f7fb" />
+  <title>Resources — FPrimeAI</title>
+  <meta name="description"
+    content="FPrimeAI — Industrial operating system for real-time operations: computer vision, IoT, data layer, and an AI copilot in one dashboard." />
+  <link rel="stylesheet" href="assets/css/styles.css?v=2" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="nav" data-nav>
+        <a class="brand" href="index.html" aria-label="FPrimeAI home">
+          <img src="assets/img/logo-small.svg" alt="FPrimeAI" style="height:32px">
+        </a>
+
+        <nav class="menu" aria-label="Primary navigation">
+          <a href="platform.html">Platform</a>
+          <a href="products.html">Products</a>
+          <a href="solutions.html">Solutions</a>
+          <a href="integrations.html">Integrations</a>
+          <a href="resources.html">Resources</a>
+          <a href="company.html">Company</a>
+          <a class="cta" href="contact.html">Request a demo</a>
+        </nav>
+
+        <button class="burger" data-burger aria-expanded="false" aria-controls="mobileNav">
+          <span aria-hidden="true">☰</span> Menu
+        </button>
+      </div>
+
+      <nav class="mobile" id="mobileNav" data-mobile aria-label="Mobile navigation">
+        <a href="platform.html">Platform</a>
+        <a href="products.html">Products</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="integrations.html">Integrations</a>
+        <a href="resources.html">Resources</a>
+        <a href="company.html">Company</a>
+        <a class="cta" href="contact.html">Request a demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <video class="bg-video" autoplay muted loop playsinline>
+    <source src="assets/img/hero-bg.mp4" type="video/mp4">
+  </video>
+  <div class="bg-overlay"></div>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="badge">Resources</div>
+        <h1 class="h1" style="margin-top:12px">Guides, updates, and case studies</h1>
+        <p class="p">Use this section to publish short, practical materials that build trust and explain what your
+          platform does.</p>
+
+        <div class="grid cols-3" style="margin-top:18px">
+          <div class="card">
+            <div class="meta">Guide • 6 min</div>
+            <div class="h3">How to run a 4‑week AI operations pilot</div>
+            <p class="p">A structured approach: scope, data readiness, dashboards, alerts, and rollout.</p>
+            <a class="btn" href="contact.html">Request the template</a>
+          </div>
+          <div class="card">
+            <div class="meta">Case study • placeholder</div>
+            <div class="h3">Reducing defects with real-time evidence</div>
+            <p class="p">Replace this with a real client story once you have pilot results.</p>
+            <a class="btn" href="contact.html">See a demo</a>
+          </div>
+          <div class="card">
+            <div class="meta">Inside the dashboard • 4 min</div>
+            <div class="h3">Downtime heatmaps and shift comparisons</div>
+            <p class="p">Explain how supervisors spot bottlenecks and prioritize actions.</p>
+            <a class="btn" href="products.html">Explore modules</a>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:18px">
+          <div class="kicker">Documentation (optional)</div>
+          <h2 class="h2">Help center structure</h2>
+          <p class="p">If you later build a help portal, here’s a simple structure that matches how clients adopt
+            platforms.</p>
+          <div class="grid cols-3" style="margin-top:14px">
+            <div class="card soft">
+              <div class="h3">Getting started</div>
+              <p class="p">Setup, access, first dashboard, alerts.</p>
+            </div>
+            <div class="card soft">
+              <div class="h3">Modules</div>
+              <p class="p">Vision QA, Safety, OEE, Copilot, Data Layer.</p>
+            </div>
+            <div class="card soft">
+              <div class="h3">Integrations</div>
+              <p class="p">Cameras, PLCs, systems, notifications.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="cols">
+        <div>
+          <div class="brand" style="gap:12px; margin-bottom:10px">
+            <img src="assets/img/logo-small.svg" alt="FPrimeAI" style="height:26px">
+          </div>
+          <p class="p">A client-facing platform that turns visual + sensor data into operational decisions.</p>
+          <span class="small">© <span id="year"></span> FPrimeAI. All rights reserved.</span>
+        </div>
+        <div>
+          <div class="h3">Platform</div>
+          <a href="platform.html">Overview</a>
+          <a href="products.html">Modules</a>
+          <a href="integrations.html">Integrations</a>
+          <a href="resources.html">Docs & resources</a>
+        </div>
+        <div>
+          <div class="h3">Solutions</div>
+          <a href="solutions.html#manufacturing">Manufacturing</a>
+          <a href="solutions.html#warehouse">Warehousing</a>
+          <a href="solutions.html#retail">Retail</a>
+          <a href="solutions.html#by-role">By role</a>
+        </div>
+        <div>
+          <div class="h3">Company</div>
+          <a href="company.html">About</a>
+          <a href="company.html#values">Values</a>
+          <a href="company.html#careers">Careers</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="hr"></div>
+      <div class="small">Built as a static site starter. Replace placeholder copy and images with your real product
+        materials.</div>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script src="assets/js/main.js"></script>
+  </footer>
+
+  <div class="toast" data-toast aria-live="polite">
+    <div class="t">Done</div>
+    <div class="m">Message</div>
+  </div>
+</body>
+
+</html>
